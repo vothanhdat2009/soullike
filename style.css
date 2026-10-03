@@ -1,0 +1,7 @@
+:root{--bg:#f2efe9;--fg:#222}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--fg:#eee}}
+:root[data-theme="dark"]{--bg:#15161a;--fg:#eee}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:system-ui,sans-serif}
+body{display:flex;flex-direction:column;align-items:center;justify-content:center}
+canvas{background:#23262e;border-radius:8px;max-width:100%;cursor:crosshair}
+p{font-size:13px;margin:8px;text-align:center;opacity:.8}
